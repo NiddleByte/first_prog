@@ -8,5 +8,23 @@ def fibonacci(n):
 
     # Write your code here.
 
-n = int(input())
-print(fibonacci(n))
+# n = int(input())
+# print(fibonacci(n))
+
+
+
+def fibonacci_seq(n):
+    a = 0 #first value
+    b = 1 #second value
+    if n==0:
+        print("0")
+    elif n == 1:
+        print("1")
+    else:
+        # print(a,b, end=" ")
+        for i in range(n-2):
+            c = a + b   #1 ,
+            a = b       #1
+            b = c       #1
+            print(b , end=" ")
+fibonacci_seq(20)
