@@ -134,12 +134,12 @@
 
 # lenth_of_list = len(list1)
 # print(lenth_of_list)
-def reverse_list_value(l):
-    r_list = []
-    # for i in range(len(l)):
-        # r_list.append(l.pop())    #['xyz', 'pqr', 'abc']
-    for i in l:
-        r_list.append(i[::-1])   #['cba', 'rqp', 'zyx']
-    return r_list
-list1 = ['abc','pqr','xyz']
-print(reverse_list_value(list1))
+# def reverse_list_value(l):
+#     r_list = []
+#     # for i in range(len(l)):
+#         # r_list.append(l.pop())    #['xyz', 'pqr', 'abc']
+#     for i in l:
+#         r_list.append(i[::-1])   #['cba', 'rqp', 'zyx']
+#     return r_list
+# list1 = ['abc','pqr','xyz']
+# print(reverse_list_value(list1))
