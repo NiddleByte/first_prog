@@ -54,3 +54,12 @@
 # # cube_find(n)
 
 # ======== Word Counter =============
+# def word_counter(s):
+#     count = {}
+#     for char in s:
+#         count[char] = s.count(char)
+#         print(char)
+#     return  count
+#
+# s = input("Enter Name")
+# print(word_counter(s))

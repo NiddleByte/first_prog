@@ -143,3 +143,52 @@
 #     return r_list
 # list1 = ['abc','pqr','xyz']
 # print(reverse_list_value(list1))
+
+
+print("===============================")
+print("========List comprehensive=======")
+print("")
+# negetaive = []
+# for i in range(1,11):
+#     negetaive.append(i)
+#     # print(i)
+# # print(negetaive)
+#
+# negetaive1 = [i for i in range(1,110) ]
+# print(negetaive1)
+
+
+# list1 = ['Asep', 'Mannan', 'Sayyad']
+# print(list1)
+# filtered = []
+# for name in list1:
+#     filtered.append(name[0])
+#
+# print(filtered)  # ['A', 'M', 'S']
+#
+# short_filter = [name[0] for name in list1]
+# print(short_filter)  # ['A', 'M', 'S']
+
+
+# =========================If statement======
+
+numbers = list(range(1, 11))
+print(numbers)
+
+# even_nums = [ i for i in numbers if i%2==0]
+# print(even_nums)
+
+
+# ============ if else ==========
+new_list = []
+for i in numbers:
+    if i % 2 == 0:
+        new_list.append(i * 2)
+    else:
+        new_list.append(-i)
+print(new_list)  # [-1, 4, -3, 8, -5, 12, -7, 16, -9, 20]
+
+# ============== Short====
+
+new_list = [i * 2 if (i % 2 == 0) else -i for i in numbers]
+print(new_list)  # #[-1, 4, -3, 8, -5, 12, -7, 16, -9, 20]
